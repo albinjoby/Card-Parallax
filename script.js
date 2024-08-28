@@ -22,7 +22,6 @@ window.onmousemove = (e) => {
 
   track.dataset.percentage = nextPercentage;
 
-
   track.animate({
     transform: `translate(${nextPercentage}%, -50%)`
   }, { duration: 1200, fill: "forwards" });
